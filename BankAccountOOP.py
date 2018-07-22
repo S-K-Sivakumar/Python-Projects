@@ -48,17 +48,17 @@ class BankAccount():
                 print('Please enter a valid amount to withdraw')
                 continue
                 
-def use_bank(self):
+def use_bank(name):
     while True:
         while True:
-            w_or_d = input("Would you like to withdraw or deposit %s? " % (self.owner))
+            w_or_d = input("Would you like to withdraw or deposit %s? " % (name.owner))
             if w_or_d in ['w','W','withdraw','d','D','deposit']:
                 break
             else:
                 print('Please provide a valid response.')
                 continue
         if w_or_d in ['w','W','withdraw']:
-            self.withdraw()
+            name.withdraw()
             while True:
                 cont = input('Would you like to continue using the bank?')
                 if cont in ['y','yes','n','no']:
@@ -71,7 +71,7 @@ def use_bank(self):
             else:
                 break
         else:
-            self.deposit()
+            name.deposit()
             while True:
                 cont = input('Would you like to continue using the bank?')
                 if cont in ['y','yes','n','no']:
