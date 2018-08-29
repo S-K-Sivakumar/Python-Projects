@@ -1,2 +1,2 @@
 # Python-Projects
-Learning Python (Milestone Projects, Project Euler Solutions, etc)
+Data Science, Machine Learning, Capstone Projects, Project Euler Solutions
