@@ -1,2 +1,2 @@
-# Data Analytics, Data Science, Machine Learning and Python Projects
-Contains Data Science, Machine Learning, Capstone Projects, Project Euler Solutions
+# Python Projects
+Python Projects, Capstone Projects, Project Euler Solutions
